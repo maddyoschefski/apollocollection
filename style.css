@@ -1,0 +1,72 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hero {
+    background: url('https://binaryfortressdownloads.com/Download/WPF/Images/3785/WallpaperFusion-moon-landscape-1680x480.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    h1 { font-size: 50px; }
+  }
+  
+  .intro {
+    padding: 20px;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+  
+  .items {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+    margin-top: 30px;
+  }
+  
+  .item {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .images {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .images img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  model-viewer {
+    width: 100%;
+    height: 300px;
+  }
+  
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 100px;
+  }
+  
+  @media (min-width: 768px) {
+    .items {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+  
+    .item {
+      max-width: 300px;
+    }
+  }
