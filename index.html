@@ -32,7 +32,21 @@
         <img src="images/astronaut1.png" alt="Neil Armstrong's Spacesuit">
         <img src="images/astronaut3.png" alt="Neil Armstrong's Spacesuit">
       </div>
-      <model-viewer src="models/item1.glb" alt="Astronaut" camera-controls></model-viewer>
+      <model-viewer src="models/NeilArmstrong (1).glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="images/poster.webp" shadow-intensity="1" auto-rotate>
+        <button class="Hotspot" slot="hotspot-3" data-position="0.1539528382623209m 0.05950093818027202m 0.03839850779228192m" data-normal="0.2573209117909917m 0.9650698199091364m 0.049256380861772475m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">EV boots</div>
+        </button><button class="Hotspot" slot="hotspot-4" data-position="-0.36825048984251957m 0.8660531751261863m 0.05841248108247487m" data-normal="-0.9928275010904435m -0.11869023344948129m 0.014359023720760478m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Extra-Vehicular gloves</div>
+        </button><button class="Hotspot" slot="hotspot-5" data-position="0.0008073088897712077m 1.746594539222408m 0.25556994679386236m" data-normal="-0.22128500885740027m 0.29702893876313924m 0.9288739173818067m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">A7-L Lunar Extravehicular Visor Assembly</div>
+        </button>
+        <button slot="ar-button" id="ar-button">
+            View in your space
+        </button>
+        <div id="ar-prompt">
+            <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+        </div>
+    </model-viewer>
     </div>
 
     <!-- Item 2 -->
@@ -44,7 +58,22 @@
         <img src="images/exterior3.jpg" alt="Exterior Spacecraft">
         <img src="images/exterior2.jpg" alt="Exterior Spacecraft">
       </div>
-      <model-viewer src="models/item1.glb" alt="Exterior" camera-controls></model-viewer>
+      <model-viewer src="models/apollo_exterior-150k-4096.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="images/poster2.webp" shadow-intensity="1" auto-rotate>
+        <button class="Hotspot" slot="hotspot-2" data-position="-106.71987335663945m 52.42002835617791m 80.11017934503695m" data-normal="-0.4583214350162421m 0.7041220644807855m 0.5423592725453943m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Side Window
+            </div>
+        </button><button class="Hotspot" slot="hotspot-7" data-position="-34.14853195211797m -71.51743148938473m 175.44532102466192m" data-normal="0.15310158237335977m 0.36882481196586686m 0.9168032305533814m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Positive Pitch Engines</div>
+        </button><button class="Hotspot" slot="hotspot-9" data-position="122.38253910951545m -5.3056598777207m 49.759872423354764m" data-normal="0.9215125406473129m 0.09961215299117748m 0.3753559063158547m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Crew Heat Shield</div>
+        </button>
+        <button slot="ar-button" id="ar-button">
+            View in your space
+        </button>
+        <div id="ar-prompt">
+            <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+        </div>
+    </model-viewer>
     </div>
 
     <!-- Item 3 -->
@@ -56,7 +85,22 @@
         <img src="images/interior1.png" alt="Interior Spacecraft">
         <img src="images/interior3.jpg" alt="Interior Spacecraft">
       </div>
-      <model-viewer src="models/item1.glb" alt="Inrerior" camera-controls></model-viewer>
+      <model-viewer src="models/apollo_interior-medium_resolution.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="images/poster3.webp" shadow-intensity="1" auto-rotate>
+        <button class="Hotspot" slot="hotspot-1" data-position="127.219410485887m 11.555498368607495m 9.987122370082417m" data-normal="-0.26455423892560076m -0.5384679990494347m -0.8000395419391435m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Crew Access Hatch Frame </div>
+        </button><button class="Hotspot" slot="hotspot-3" data-position="51.046452743112965m -55.00317589464264m 37.65683252030022m" data-normal="0.22083610567477802m 0.06495592815715986m -0.9731454885204167m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">T-Stringers</div>
+        </button><button class="Hotspot" slot="hotspot-5" data-position="82.82871881099544m 123.14025897811763m -71.51658303772325m" data-normal="0.07562627570049707m 1.33974088561724e-7m -0.9971362326300527m" data-visibility-attribute="visible">
+            <div class="HotspotAnnotation">Forward Hatch
+            </div>
+        </button>
+        <button slot="ar-button" id="ar-button">
+            View in your space
+        </button>
+        <div id="ar-prompt">
+            <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+        </div>
+    </model-viewer>
     </div>
   </section>
 
