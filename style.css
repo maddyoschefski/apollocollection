@@ -70,3 +70,20 @@ body {
       max-width: 300px;
     }
   }
+
+    #ar-button {
+        padding: 12px 24px;
+        background-color: #0078d7;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    #ar-button:hover {
+        background-color: #005fa3;
+    }
+
+

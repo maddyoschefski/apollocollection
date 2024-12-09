@@ -32,16 +32,27 @@
         <img src="images/astronaut1.png" alt="Neil Armstrong's Spacesuit">
         <img src="images/astronaut3.png" alt="Neil Armstrong's Spacesuit">
       </div>
-      <model-viewer src="models/NeilArmstrong (1).glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="images/poster.webp" shadow-intensity="1" auto-rotate>
+      <model-viewer
+    src="models/NeilArmstrong (1).glb"
+    ar
+    ar-modes="webxr scene-viewer quick-look"
+    camera-controls
+    tone-mapping="neutral"
+    poster="images/poster.webp"
+    shadow-intensity="1"
+    auto-rotate>
+    
+    <!-- AR Button -->
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+
         <button class="Hotspot" slot="hotspot-3" data-position="0.1539528382623209m 0.05950093818027202m 0.03839850779228192m" data-normal="0.2573209117909917m 0.9650698199091364m 0.049256380861772475m" data-visibility-attribute="visible">
             <div class="HotspotAnnotation">EV boots</div>
         </button><button class="Hotspot" slot="hotspot-4" data-position="-0.36825048984251957m 0.8660531751261863m 0.05841248108247487m" data-normal="-0.9928275010904435m -0.11869023344948129m 0.014359023720760478m" data-visibility-attribute="visible">
             <div class="HotspotAnnotation">Extra-Vehicular gloves</div>
         </button><button class="Hotspot" slot="hotspot-5" data-position="0.0008073088897712077m 1.746594539222408m 0.25556994679386236m" data-normal="-0.22128500885740027m 0.29702893876313924m 0.9288739173818067m" data-visibility-attribute="visible">
             <div class="HotspotAnnotation">A7-L Lunar Extravehicular Visor Assembly</div>
-        </button>
-        <button slot="ar-button" id="ar-button">
-            View in your space
         </button>
         <div id="ar-prompt">
             <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
@@ -95,7 +106,7 @@
             </div>
         </button>
         <button slot="ar-button" id="ar-button">
-            View in your space
+            View in your own space
         </button>
         <div id="ar-prompt">
             <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
